@@ -1,0 +1,18 @@
+--datname=tebd-psi.dat   --bond=$b --size=$p,$b,$p,$b --perm=1,0,2,3
+--datname=tebd-theta.dat --bond=$b --size=$p,$p,$b,$b --perm=2,0,1,3
+--datname=tebd-gamma.dat --bond=$b --size=$b,$p,$b    --perm=1,0,2
+
+--datname=ctmrg-c1t1.dat   --bond=$b --size=$b,$b,$p    --perm=1,0,2
+--datname=ctmrg-weight.dat --bond=$b --size=$b,$b,$b,$b --perm=1,2,3,0
+--datname=ctmrg-cttw.dat   --bond=$b --size=$b,$b,$p,$p --perm=0,2,1,3
+--datname=ctmrg-tm.dat     --bond=$b --size=$b,$b,$b,$b --perm=0,3,1,2
+
+--datname=trg-pair.dat       --bond=$b --size=$b,$b,$b,$b       --perm=1,2,3,0
+--datname=trg-x.dat          --bond=$b --size=$b,$b,$b          --perm=2,0,1
+--datname=trg-double.dat     --bond=$b --size=$b,$b,$b          --perm=1,2,0
+--datname=trg-plaquette.dat  --bond=$b --size=$b,$b,$b,$b,$b,$b --perm=0,5,2,3,1,4
+
+--datname=honeyite-ten.dat   --bond=$b --size=$p,$b,$b,$b       --perm=0,2,3,1
+--datname=honeyite-theta.dat --bond=$b --size=$p,$p,$b,$b,$b,$b --perm=0,2,3,1,4,5
+--datname=honeyite-x.dat     --bond=$b --size=$p,$b,$b,$b       --perm=0,3,1,2
+--datname=honeyite-y.dat     --bond=$b --size=$b,$p,$b,$b       --perm=1,0,2,3
